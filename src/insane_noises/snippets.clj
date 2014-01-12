@@ -163,3 +163,5 @@
 ;; (runner) ;; happy xmas
 ;; (stop)
 
+;; Playing with membrane-circle
+(demo 30 (membrane-circle:ar (square 1) (* (sin-osc 0.1) 0.1) 0.99))
